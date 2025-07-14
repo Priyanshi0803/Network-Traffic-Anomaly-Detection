@@ -52,6 +52,30 @@ This project uses **unsupervised machine learning techniques** such as **Isolati
 
 --- 
 
+## 📈 Output Visualizations
+
+- 📊 **Anomaly Distribution**
+- 🔍 **Feature-wise Scatter Plot**
+- 📉 **MSE Distribution (Autoencoder only)**
+
+---
+
+## ✅ Future Improvements
+
+- Add support for real-time anomaly detection using streaming data.
+- Visualize feature importance for explainability.
+- Support categorical features with encoding.
+- Add model performance evaluation metrics.
+
+---
+
+## 🙌 Acknowledgments
+
+- Dataset provided by Universidad del Cauca.
+- Uses Keras, TensorFlow, scikit-learn, and Streamlit.
+
+---
+ 
 ## 📂 Project Structure
   ```bash
 ├── detect_anomalies.py         # Core logic for anomaly detection and plotting
@@ -65,7 +89,6 @@ This project uses **unsupervised machine learning techniques** such as **Isolati
     ├── feature_scatter.png
     └── mse_distribution.png
 
----
 
 
 
