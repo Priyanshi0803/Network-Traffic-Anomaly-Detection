@@ -31,7 +31,7 @@ This project uses **unsupervised machine learning techniques** such as **Isolati
 
 ## 🧪 Dataset
 
-- **Source**: `Dataset-Unicauca-Version2-87Atts.csv`
+- **Source**: `Synthetic_network_traffic.csv`
 - Features: 87 attributes representing various network traffic characteristics.
 - Type: Unlabeled, numeric data.
 
