@@ -18,7 +18,7 @@ if uploaded_file is not None:
     st.info("✅ Using uploaded file.")
 else:
     # Load from Google Drive fallback (replace YOUR_FILE_ID)
-    csv_url = "https://drive.google.com/uc?id=YOUR_FILE_ID"  # <-- Replace with your actual file ID
+    csv_url = "https://drive.google.com/file/d/1i46MvJ-yUzXCobAq4jXXxrpsjA4iZh2W/view?usp=sharing"  # <-- Replace with your actual file ID
     try:
         df = pd.read_csv(csv_url, nrows=1000)
         st.warning("⚠️ No file uploaded. Using sample dataset from Google Drive.")
