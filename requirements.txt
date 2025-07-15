@@ -3,4 +3,4 @@ numpy
 scikit-learn
 joblib
 streamlit
-tensorflow>=2.10,<2.12
+tensorflow==2.10.0
