@@ -17,7 +17,7 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.info("✅ Using uploaded file.")
 else:
-    df = pd.read_csv("Dataset-Unicauca-Version2-87Atts.csv", nrows=1000)
+    df = pd.read_csv("synthetic_network_traffic.csv", nrows=1000)
     st.warning("⚠️ No file uploaded. Using sample dataset.")
 
 # Preview
